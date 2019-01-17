@@ -1,0 +1,64 @@
+@import 'base.css';
+
+.fl{float: left;}
+.fr{float: right;}
+.wrap{max-width: 1600px; width: 100%; margin: auto;}
+
+#menubar{max-width: 1100px; width: 100%; margin: auto; text-align: center;}
+.topsub{margin-top: 3%;}
+.subnav{float: right; font-size: 1.2rem;} 
+.subnav ul li{margin-left: 0.7rem;}
+.navs{width: 100%; margin: auto;}
+.nav{margin-right:9.1%; padding-top: 2%; position: relative; text-align: left;}
+.nav div{font-size: 1.9rem; cursor: pointer; font-weight: 600;}
+.nav ul{display: none; position: absolute; top: 180%}
+.nav ul li{cursor: pointer; font-size: 1.4rem; margin:0 auto 1.3rem; width: 160% }
+.logo{display: inline-block; margin:0 9% 0 4%;}
+.logo img{width: 80%;}
+#search{font-size: 1.3rem; padding-top: 2.4%;}
+
+
+#main1{text-align: center; margin-top: 4%;}
+.fir{width: 50%; position: relative; border: 1px solid black;}
+.leftc{width: 10%; height: 100px;}
+.fir > h2{position: absolute; top: 0; left: 3rem; border: 1px solid rebeccapurple; transform-origin: left top; transform: rotate(90deg);}
+.rightc{width: 3%; height: 100px;}
+.cont{width: 87%;}
+.cont img{width: 100%;}
+.cont > div{width: 100%;}
+.cont > div > div{margin-bottom: 4%;}
+.cont .hwr{width: 50%; padding-right:7% }
+.tit{width: 80%; margin: 37% auto 10%;}
+.hwr h4{ font-size: 1.17rem; line-height: 180%; letter-spacing: -0.08rem;}
+.text{}
+.hwr + div{width: 50%;}
+
+
+/* <div id="main1">
+		<div class="fir">
+			<div class="leftc">
+				<h2>- 2019 주요 전시 일정</h2>
+			</div>
+			<div class="cont clear">
+				<div><img src="../img/hwr_1.jpg" alt="화랑전시1"></div>
+				<div class="hwr fl">
+					<div class="tit"></div>
+					<h4 class="text">
+							올해로 37회를 맞이하는 ‘화랑미술제’는 
+							(사)한국화랑협회  회원들이 힘을 모아 만들어 
+							온 한국 최초의 아트페어, 미술품 견본시장 입니다. 
+							오는 2월 28일 개막식을 시작으로 3월 4일까지 
+							5일간 화랑미술제가 여러분을 초대합니다.
+					</h4>
+					<button></button>
+				</div>
+				<div><img src="../img/hwr_2.jpg" alt="화랑전시2"></div>
+			</div>
+			<div class="rightc"></div>
+
+		</div>
+		<div class="sec"></div>
+		<div class="thr"></div> */
+
+
+
