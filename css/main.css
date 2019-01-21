@@ -17,21 +17,30 @@
 .logo img{width: 80%;}
 #search{font-size: 1.3rem; padding-top: 2.4%;}
 
+img{width: 100%;}
+
+.w10{width: 10%; height: 100px;}
+.w80{width: 80%;}
+.w50{width: 50%;}
+.w87{width: 87%;}
 
 #main1{text-align: center; margin-top: 4%;}
-.fir{width: 50%; position: relative; border: 1px solid black;}
+.fir{position: relative;}
 .leftc{width: 10%; height: 100px;}
 .fir > h2{position: absolute; top: 0; left: 3rem; border: 1px solid rebeccapurple; transform-origin: left top; transform: rotate(90deg);}
 .rightc{width: 3%; height: 100px;}
-.cont{width: 87%;}
-.cont img{width: 100%;}
+.cont{}
 .cont > div{width: 100%;}
 .cont > div > div{margin-bottom: 4%;}
-.cont .hwr{width: 50%; padding-right:7% }
-.tit{width: 80%; margin: 37% auto 10%;}
-.hwr h4{ font-size: 1.17rem; line-height: 180%; letter-spacing: -0.08rem;}
-.text{}
-.hwr + div{width: 50%;}
+.cont .hwr{padding-right:7% }
+
+.fair{padding-left: 5%;}
+
+.tit{margin: 25% auto 10%;}
+.text{ font-size: 1.17rem; line-height: 250%; letter-spacing: -0.08rem; 
+	margin-bottom: 14%}
+button{width: 55%; border: 1px solid #535353;
+	padding: 4% 0; background-color: #fff;}
 
 
 /* <div id="main1">
