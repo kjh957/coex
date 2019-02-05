@@ -2,72 +2,166 @@
 
 .fl{float: left;}
 .fr{float: right;}
-.wrap{max-width: 1600px; width: 100%; margin: auto;}
+.wrap{max-width: 1400px; min-width: 980px; width: 100%; margin: auto;}
+.wrap2{max-width: 1800px; min-width: 980px; width: 100%; margin: auto;}
 
-#menubar{max-width: 1100px; width: 100%; margin: auto; text-align: center;}
-.topsub{margin-top: 3%;}
+#menubar{max-width: 1200px; width: 100%; margin: auto; text-align: center;}
+.topsub{margin-top: 4%;}
 .subnav{float: right; font-size: 1.2rem;} 
 .subnav ul li{margin-left: 0.7rem;}
-.navs{width: 100%; margin: auto;}
-.nav{margin-right:9.1%; padding-top: 2%; position: relative; text-align: left;}
+.navs{width: 97%; margin: auto;}
+.nav{padding-top: 2%;}
 .nav div{font-size: 1.9rem; cursor: pointer; font-weight: 600;}
 .nav ul{display: none; position: absolute; top: 180%}
 .nav ul li{cursor: pointer; font-size: 1.4rem; margin:0 auto 1.3rem; width: 160% }
-.logo{display: inline-block; margin:0 9% 0 4%;}
-.logo img{width: 80%;}
-#search{font-size: 1.3rem; padding-top: 2.4%;}
+.coexlogo{width:13%; text-align: center;} 
+#search{font-size: 1.3rem; width: 3%; padding: 1.7% 0 0 0; text-align: right;}
+
 
 img{width: 100%;}
 
 .w10{width: 10%; height: 100px;}
+.w20{width: 20%;}
+.w24{width: 24%; margin-right: 1.333%}
+.w24:last-child{width: 24%; margin-right: 0}
 .w80{width: 80%;}
 .w50{width: 50%;}
 .w87{width: 87%;}
+.w70{width: 68%;}
+.w49{width: 49%;}
+.w30{width: 30%;}
+.w33{width: 30%;}
+
+.fa{font-size: 3rem; padding-right: 2.5rem;}
+.fa-facebook{color: #ececec}
+.fa-facebook:hover{color: #3B5998}
+.fa-pinterest{color: #ececec}
+.fa-pinterest:hover{color: #cb2027}
+.fa-android{color: #ececec}
+.fa-android:hover{color: #a4c639}
+.fa-google{color: #ececec}
+.fa-google:hover{color: #dd4b39}
+.fa-instagram{color: #ececec}
+.fa-instagram:hover{color: #125688}
+.fa-youtube{color: #ececec}
+.fa-youtube:hover{color: #bb0000}
+
+
 
 #main1{text-align: center; margin-top: 4%;}
 .fir{position: relative;}
 .leftc{width: 10%; height: 100px;}
-.fir > h2{position: absolute; top: 0; left: 3rem; border: 1px solid rebeccapurple; transform-origin: left top; transform: rotate(90deg);}
+.fir > h2{position: absolute; top: -3rem; left: 3rem; transform-origin: left top; transform: rotate(90deg);}
 .rightc{width: 3%; height: 100px;}
 .cont{}
 .cont > div{width: 100%;}
 .cont > div > div{margin-bottom: 4%;}
-.cont .hwr{padding-right:7% }
+.cont .hwr{padding-right:3% }
 
-.fair{padding-left: 5%;}
+.fair{padding: 0 5% 0 0;}
+.ssp1{position: relative; margin-top: -10%;}
+.mjtit{margin-top: 16.7%; margin-bottom: 5.7%}
+.mjtit div{display: inline-block; padding: 15% 15% 10% 15%; border: 2px double #575757}
+.mjtit h1{font-size: 10rem; font-weight: bolder;}
+.mjtit h3{font-size: 5.5rem; font-weight: lighter; letter-spacing: -0.2rem}
+.mjtit h5{font-size: 3rem; margin-top: 15%}
+.sec > div div:last-child p:first-child{margin-right: 1%}
 
-.tit{margin: 25% auto 10%;}
-.text{ font-size: 1.17rem; line-height: 250%; letter-spacing: -0.08rem; 
-	margin-bottom: 14%}
-button{width: 55%; border: 1px solid #535353;
-	padding: 4% 0; background-color: #fff;}
+.living {position: relative;}
+.living div{ position: absolute;}
+
+.tit{margin: 15% auto 10%;}
+.tit2{margin: 7% 15% 5% auto}
+.text{ font-size: 1.2rem; line-height: 250%; letter-spacing: -0.08rem; 
+    margin-bottom: 14%}
+.text2{ font-size: 1.2rem; line-height: 250%; letter-spacing: -0.08rem; 
+    margin:0 10% 10% 0; text-align: right;}
+button{width: 55%; border: 1px solid #575757;
+    padding: 4% 0; background-color: #fff; margin-bottom: 12%}
+button:hover{width: 55%; background-color: #575757; color: white;}
+.liv button{width: 55%; border: 1px solid #575757;
+    padding: 4% 0; background-color: #fff; margin-left: 25%}
+.liv button:hover{width: 55%; padding: 4% 0; background-color: #575757; margin-left: 25%}
+
+.livingimg{position: relative; width: 130%; margin-top: 9%; z-index: -99;}
+
+.eandn{position: relative; margin-top: 5%;}
+.eandn h2{position: absolute; right: 0; display: inline-block;}
+
+.slide{position: relative; margin-top: 5%}
+.slide p:first-child{height: 38%; width: 10%; background-color: #f1f1f1; position: absolute; z-index: -1; top: -3%}
+.slidetit h3{margin:2% 10% 0 12%;}
+.slidetit h4{margin-top: 2%;}
+
+.banner{position: relative; overflow: hidden;}
+.banner_wrap{position: absolute; width: 100%; top:0;}
+.banner_wrap > li{position: absolute; width: 100%;}
+
+.mev{margin-top: 7%; padding-left: 15%;}
+.mths img {width: 90%; transform: translate(6%, 8%) }
+.mth{margin-left: 3%; margin-bottom: 2%; height: 530px; border: 1px solid #575757; position: relative;}
+.mth li{padding: 10% 10% 0;}
+.mth li h3{font-size: 1.65rem; font-weight: bold;}
+.mth li h4{font-size: 1.2rem; margin-top:2%; }
+.mth li h5{font-size: 1.1rem; line-height: 230%; margin: 0;}
+.mth button{position: absolute; left: 50%; bottom:0; transform: translate(-50%, 60%)}
+.mth:nth-child(3){margin-left:0; height: 530px;}
+.mthtit{height: 530px;}
+.mthtit div{height:50%;}
+.mthtit div:first-child{padding-top: 50%;}
+.mthtit div:first-child h1{font-size: 2.8rem; display: inline; font-weight: bold; margin-left: 5%; line-height: 120%;}
+.mthtit div:first-child h3{font-size: 2.8rem; display: inline; font-weight: lighter;}
+.mthtit div:last-child{background-color: #575757; padding: 11% 0 0 10%; color: white;}
+.mthtit div:last-child h5{line-height: 150%; margin-bottom: 7%; font-size: 1.5rem;}
+.mthtit div:last-child h1{font-weight: bold; margin-bottom: 20%; font-size: 3rem;}
+
+
+.news{background-color: #f1f1f1; padding: 3% 2%; margin-top: 7%;}
+.new h1{font-size: 2.3rem; margin-bottom: 12%;}
+.new h1:after{border-bottom:2px solid #575757; width: 100%; height: 1px; 
+    display: block; content: ""; padding-top: 4%;}
+.new ul li{margin-bottom: 5%;}
+.new ul li:last-child{margin-bottom: 15%;}
+.new ul li h4{margin-bottom: 2%; font-size: 1.6rem;}
+.new ul li h5{font-size: 1.2rem; line-height: 145%;}
+.new div{width: 20%; margin-top: 5%;}
+
+.sns div:first-child{padding:10% 0 2% 0}
+.sns div h1{text-align: center; }
+.sns div h1:after{content: ""; border-bottom: 2px solid #575757; width: 5%;
+display: block; margin:1% auto 1.5%;}
+.icons{margin-bottom: 5%; display: inline-block; position: relative; transform: translateX(-50%); left: 50%;}
+.sns div ul li h3{font-size: 2rem; font-weight: bold; line-height: 150%;}
+.sns div ul li h4{font-size: 1.7rem; margin-bottom: 5%;}
+.sns div ul li p {text-align: center; margin-top: 10%;}
 
 
 /* <div id="main1">
-		<div class="fir">
-			<div class="leftc">
-				<h2>- 2019 주요 전시 일정</h2>
-			</div>
-			<div class="cont clear">
-				<div><img src="../img/hwr_1.jpg" alt="화랑전시1"></div>
-				<div class="hwr fl">
-					<div class="tit"></div>
-					<h4 class="text">
-							올해로 37회를 맞이하는 ‘화랑미술제’는 
-							(사)한국화랑협회  회원들이 힘을 모아 만들어 
-							온 한국 최초의 아트페어, 미술품 견본시장 입니다. 
-							오는 2월 28일 개막식을 시작으로 3월 4일까지 
-							5일간 화랑미술제가 여러분을 초대합니다.
-					</h4>
-					<button></button>
-				</div>
-				<div><img src="../img/hwr_2.jpg" alt="화랑전시2"></div>
-			</div>
-			<div class="rightc"></div>
+        <div class="fir">
+            <div class="leftc">
+                <h2>- 2019 주요 전시 일정</h2>
+            </div>
+            <div class="cont clear">
+                <div><img src="../img/hwr_1.jpg" alt="화랑전시1"></div>
+                <div class="hwr fl">
+                    <div class="tit"></div>
+                    <h4 class="text">
+                            올해로 37회를 맞이하는 ‘화랑미술제’는 
+                            (사)한국화랑협회  회원들이 힘을 모아 만들어 
+                            온 한국 최초의 아트페어, 미술품 견본시장 입니다. 
+                            오는 2월 28일 개막식을 시작으로 3월 4일까지 
+                            5일간 화랑미술제가 여러분을 초대합니다.
+                    </h4>
+                    <button></button>
+                </div>
+                <div><img src="../img/hwr_2.jpg" alt="화랑전시2"></div>
+            </div>
+            <div class="rightc"></div>
 
-		</div>
-		<div class="sec"></div>
-		<div class="thr"></div> */
+        </div>
+        <div class="sec"></div>
+        <div class="thr"></div> */
+
 
 
 
