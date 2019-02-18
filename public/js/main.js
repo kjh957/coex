@@ -47,3 +47,22 @@ function ani(){
     }
   })
 }
+
+function tick(){
+  $("#tick li:first").show();
+  $("#tick li:first").hide().slideUp(function(){$(this).appendTo("#tick").slideDown();});
+  
+}
+setInterval(function(){tick()},3000);
+
+$(".sns_new li").mouseenter(function () { 
+  if ($(this).is(".pinterli") === true) { $(this).find("a").css("color","#cb2027");
+  }
+  else if($(this).is(".faceli") === true) { $(this).find("a").css("color","#3B5998");
+  }  
+  else if($(this).is(".instali") === true) { $(this).find("a").css("color","#125688");
+  }
+});
+$(".sns_new li").mouseleave(function(){
+  $(this).find("a").css("color","#ececec")
+})

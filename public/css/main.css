@@ -1,5 +1,19 @@
 @import 'base.css';
 
+@keyframes sizeUp{
+    0% {transform:scale(1);}
+    100% {transform:scale(1.2);}
+  }
+  @keyframes sizeDn{
+    0% {transform:scale(1.2);}
+    100% {transform:scale(1);}
+  }
+
+.sz{overflow: hidden;}
+.sz > img{animation-name: sizeDn; animation-duration: 1.2s; animation-fill-mode: forwards}
+.sz > img:hover{animation-name: sizeUp;}
+
+
 .fl{float: left;}
 .fr{float: right;}
 .wrap{max-width: 1400px; min-width: 980px; width: 100%; margin: auto;}
@@ -13,7 +27,7 @@
 .navs{width: 97%; margin: auto;}
 .nav{padding-top: 2%;}
 .nav div{font-size: 1.9rem; cursor: pointer; font-weight: 600;}
-.nav ul{display: none; position: absolute; top: 20%; z-index: 9999; background-color: #fff; width: 13%; padding:1%; margin-left: 0.4%; border-bottom: 2px solid #575757}
+.nav ul{display: none; position: absolute; top: 12%; z-index: 9999; background-color: #fff; width: 13%; padding:1%; margin-left: 0.4%; border-bottom: 2px solid #575757}
 .nav ul li{cursor: pointer; font-size: 1.4rem; margin:0 auto 1.5rem;}
 .nav ul li:hover{background-color: #ececec;}
 .coexlogo{width:13%; text-align: center;} 
@@ -50,6 +64,7 @@ img{width: 100%;}
 
 
 
+
 #main1{text-align: center; margin-top: 4%;}
 .fir{position: relative;}
 .leftc{width: 10%; height: 100px;}
@@ -66,7 +81,7 @@ img{width: 100%;}
 .mjtit div{display: inline-block; padding: 15% 15% 10% 15%; border: 2px double #575757}
 .mjtit h1{font-size: 10rem; font-weight: bolder;}
 .mjtit h3{font-size: 5.5rem; font-weight: lighter; letter-spacing: -0.2rem}
-.mjtit h5{font-size: 3rem; margin-top: 15%}
+.mjtit h5{font-size: 3rem; margin-top: 15%; cursor: pointer;}
 .sec > div div:last-child p:first-child{margin-right: 1%}
 
 .living {position: relative;}
@@ -92,18 +107,18 @@ button:hover{width: 55%; background-color: #575757; color: white;}
 
 .slide{position: relative; margin-top: 5%}
 .slide p:first-child{height: 38%; width: 10%; background-color: #f1f1f1; position: absolute; z-index: -1; top: -3%}
-.slidetit h3{margin:2% 10% 0 12%;}
-.slidetit h4{margin-top: 2%;}
 
 .banner{position: relative; overflow: hidden;}
 .banner_wrap{position: absolute; width: 100%; top:0;}
 .banner_wrap > li{position: absolute; width: 100%;}
 
-.mev{margin-top: 7%; padding-left: 15%;}
+.mev{margin-top: 7%; margin-left: 5%; transform: translateX(6.5%);}
 .mths img {width: 90%; transform: translate(6%, 8%) }
-.mth{margin-left: 3%; margin-bottom: 2%; height: 530px; border: 1px solid #f1f1f1; position: relative;}
+.mth{margin-left: 1.5%; margin-bottom: 1.5%; height: 530px; border: 1px solid #f1f1f1; position: relative;}
 .mth:hover{border: 1px solid #575757;}
-.mth li{padding: 12% 5% 0;}
+.mth ul{margin-top: 5%;}
+.mth li{padding: 5% 7% 0;}
+.mth li:first-child{padding: 8% 7% 0;}
 .mth li h3{font-size: 1.65rem; font-weight: bold;}
 .mth li h4{font-size: 1.2rem; margin-top:2%; }
 .mth li h5{font-size: 1.1rem; line-height: 230%; margin: 0;}
@@ -120,10 +135,10 @@ button:hover{width: 55%; background-color: #575757; color: white;}
 
 
 .news{background-color: #f1f1f1; padding: 3% 2%; margin-top: 7%;}
-.new h1{font-size: 2.3rem; margin-bottom: 12%;}
+.new h1{font-size: 2.3rem; margin-bottom: 12%; cursor: pointer;}
 .new h1:after{border-bottom:2px solid #575757; width: 100%; height: 1px; 
     display: block; content: ""; padding-top: 4%;}
-.new ul li{margin-bottom: 5%;}
+.new ul li{margin-bottom: 5%; cursor: pointer;}
 .new ul li:last-child{margin-bottom: 15%;}
 .new ul li h4{margin-bottom: 2%; font-size: 1.6rem;}
 .new ul li h5{font-size: 1.2rem; line-height: 145%;}
@@ -138,7 +153,25 @@ display: block; margin:1% auto 1.5%;}
 .sns div ul li h4{font-size: 1.5rem; margin-bottom: 5%;}
 .sns div ul li p {text-align: center; margin-top: 10%;}
 
+.sns_new{cursor: pointer;}
 
+.bott{width: 100%; margin-top: 5%; color: #575757}
+.bott ul li span{font-size: 1.4rem; margin-right: 2%; line-height: 300%;}
+.bott ul li span:first-child{margin-left: 1%;}
+.bott ul li p{font-size: 1.4rem; line-height: 160%;}
+.bott ul li div{margin-left: 1%;}
+.coexlogosub img{width: 70%}
+.bott ul li{ border-top: 2px solid #ececec;}
+.bott ul li:last-child{padding: 2% 0;}
+
+.bott ul li span select{width: 140%; padding: 6%}
+.selectbox{float: right; transform: translateX(-25%);}
+
+#tick { height: 4rem; overflow: hidden; margin:1% 10% 0 12%; width: 100%;}
+#tick li{height: 3rem; padding: 5px; margin: 0 5px; width: 100%;}
+#tick li h3{line-height: 3rem; margin-right: 10%; padding: 0.5rem; width: 34%;}
+#tick li h5{font-size: 1.5rem; line-height: 4rem; color: #575757; width: 6%}
+#tick li h4{line-height: 3rem}
 /* <div id="main1">
         <div class="fir">
             <div class="leftc">
